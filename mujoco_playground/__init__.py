@@ -19,12 +19,16 @@ from mujoco_playground._src import manipulation
 from mujoco_playground._src import registry
 from mujoco_playground._src import wrapper
 from mujoco_playground._src import wrapper_torch
+
+from mujoco_playground._src import custom_train
+
 # pylint: disable=g-importing-member
 from mujoco_playground._src.mjx_env import init
 from mujoco_playground._src.mjx_env import MjxEnv
 from mujoco_playground._src.mjx_env import render_array
 from mujoco_playground._src.mjx_env import State
 from mujoco_playground._src.mjx_env import step
+
 # pylint: enable=g-importing-member
 
 __all__ = [
